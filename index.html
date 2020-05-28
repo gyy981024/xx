@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/wow.min.js"></script>
+	<script src="js/compatible.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+    <body>
+        <!-- 图片 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/img-1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/img-2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/img-3.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/img-4.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/img-5.jpg">
+                </div>
+            </div>
+        </div>
+        <!-- 信 -->
+        <div class="letter clearfix">
+            <p class="letter-english tc wow bounceInRight animated">Letter For You</p>
+            <p class="letter-chinese tc wow bounceInDown animated">给你的信</p>
+            <div class="letter-count wow bounceInUp animated">
+                <div class="letter-count-title">亲爱的三金同学:</div>
+                <p>21岁生日了，过的真快，回想起来我陪你过了19岁生日、20岁生日，21岁生日我还在你的身边，第三个年头，希望我们会越来越好，生活再多的苦都会过去不是，回想20岁，可能会有很多不愉快，21岁来了，让20岁成为过去，从今天开始，又是一个新的开始。</p>
+                <p>今天你生日，你是老大，哈哈哈，你说啥就是啥，谁让咱不过生日呢，我是一个不善于表达的小姑娘，你心里应该明白的很，要不然怎么总是会说不清楚话惹你生气呢，所以你知道我是这样的人以后就不许跟我生气了，生气不好，你要快乐。</p>
+                <p>吵吵闹闹我们也在一起第三年了，都想不起来是从什么时候认定你这个大男孩了，总是幻想着可以和你这个大男孩有个家（没事干的时候就在胡思乱想）嘿嘿，你给我说过，你想做的事情肯定会做到的，不管多难，所以你要努力的向前，做你想做的，干你喜欢的。</p>
+                <p>最后，鑫鑫、鑫鑫、鑫鑫，祝你生日快乐，越来越帅，心里所想都可以实现，21岁这一年都要快快乐乐的。</p>
+            </div>
+        </div>
+        <!-- 风筝 -->
+        <div class="kite clearfix">
+            <img src="images/img-6.jpg" alt="" class="wow fadeInLeft animated">
+            <img src="images/img-7.jpg" alt="" class="wow fadeInDown animated">
+            <img src="images/img-8.jpg" alt="" class="wow fadeInUp animated">
+            <div class="kite-count ma tc wow lightSpeedIn animated">放风筝的男孩子</div>
+        </div>
+        <!-- lovers -->
+        <div class="lovers clearfix">
+            <img src="images/img-9.jpg" alt="" class="wow fadeInUp animated">
+            <img src="images/img-10.jpg" alt="" class="wow fadeInDown animated">
+            <div class="lovers-count ma tc wow shake animated">第一张情侣照片</div>
+        </div>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 30,
+                centeredSlides: true,
+                loop: true,
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+        <script>
+            if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+                new WOW().init();
+            };
+        </script>
+    </body>
+</html>

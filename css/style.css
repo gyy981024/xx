@@ -1,0 +1,96 @@
+/*图片*/
+.swiper-container{
+	width: 100%;
+	height:70vh;
+	background: #ffffff;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+/*信*/
+.letter{
+	width: 100%;
+	padding-top: 0.5rem;
+	box-sizing: border-box;
+}
+.letter .letter-english{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 1rem;
+	color: #e5e5e5;
+	font-family: "宋体";
+}
+.letter .letter-chinese{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.88rem;
+	color: #333333;
+	font-family:"宋体";
+	font-weight: bold;
+	margin-top: 0.4rem;
+}
+.letter .letter-count{
+	width: 100%;
+	padding:0 0.6rem;
+	box-sizing: border-box;
+	font-size: 0.72rem;
+	font-family: "宋体";
+	line-height: 1rem;
+	color: #333333;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+}
+.letter .letter-count .letter-count-title{
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+}
+.letter .letter-count p{
+	text-indent: 2em;
+}
+/*风筝*/
+.kite{
+	width: 100%;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+	margin-bottom: 0.4rem;
+}
+.kite img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.6rem;
+}
+.kite .kite-count{
+	width: 7rem;
+	height: 1rem;
+	background: url(../images/back.png) no-repeat left;
+	background-size: 1.2rem 1.2rem;
+	font-size: 0.64rem;
+	color: #333333;
+	line-height: 1rem;
+}
+/*lovers*/
+.lovers{
+	width: 100%;
+	padding: 0 0.6rem;
+	box-sizing: border-box;
+	margin-bottom: 0.4rem;
+}
+.lovers img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.6rem;
+}
+.lovers .lovers-count{
+	width: 7rem;
+	height: 1rem;
+	background: url(../images/back-2.png) no-repeat left;
+	background-size: 1.2rem 1.2rem;
+	font-size: 0.64rem;
+	color: #333333;
+	line-height: 1rem;
+}
